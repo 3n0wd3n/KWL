@@ -14,15 +14,12 @@
 :root{
     --text--font-family: 'Cormorant Garamond', serif;
     --text--color--black-color: black;
-    --text--color--white-color: rgba(211, 210, 210, 1);
-    --text--color--grey-color: rgba(65, 65, 65, 0.72);
-    --text--color--light__grey-color: rgba(130, 130, 130, 0.83);
-    --text--color--darker__grey-color: rgba(65, 65, 65, 0.75);
-    --text--color--orange-color: rgba(255, 138, 0, 1);
-    --text--color--light_orange-color: rgba(255, 168, 105, 1);
-    --text--color--lighter_orange-color: rgba(255, 203, 142, 1);
-    --color--light_orange-color: rgba(255, 173, 78, 1);
-    --profile--photo-color: rgba(255, 186, 105, 1);
+    --text--color--white-color: white;
+    --icon--color--white-color: white;
+    --icon--color--black-color: black;
+    --theme--color--light-orange-color: #E4B78B;
+    --theme--color--orange-color: #E0AC7B;
+    
 }
 
 *{
