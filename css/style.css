@@ -36,5 +36,7 @@
     background-size: cover;
     min-height: 100vh;
     max-width: 100vw;
+    display: flex;
+    position: relative;
     background-image: url(photos/landing-page--photo.jpg);
 }
