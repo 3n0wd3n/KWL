@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/00d7a12034.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script type="text/javascript" src="js/script.js"></script>
         <!-- <link rel="icon" href="img/Favicon.svg" type="image/gif" /> -->
         <meta name="author" content="Michael Hajný">
         <title>KWL</title>
@@ -18,6 +19,11 @@
     b) javascript will take care of counting where is div with icons and according to position will choose color and 
         automaticly will appear and disappear if landing page
      -->
+    <div class="contacts" >
+        <a href=""><i class="fas fa-phone" ></i></a>
+        <a href=""><i class="fas fa-envelope"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+    </div>
     <section class="landing-page">
         <div class="landing-page--container">
             <div class="landing-page__contact-menu">
@@ -29,24 +35,25 @@
                     
                 </div>
                 <div class="contact-menu__contact-icons">
-                    <i class="fas fa-phone"></i>
-                    <i class="fas fa-envelope"></i>
-                    <i class="fab fa-instagram"></i>
+                    <a href=""><i class="fas fa-phone"></i></a>
+                    <a href=""><i class="fas fa-envelope"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="landing-page__contact-menu--rolled">
                 <div class="landing-page__contact-menu--rolled--tags">
                     <!-- H1 is empty bcs of SEO -->
                     <h1></h1>
-                    <div class="circle-text"><i class="far fa-circle"></i><span class="menu-element">heimat</span></div>
-                    <div class="circle-text"><i class="far fa-circle"></i><span class="menu-element">willkommen</span></div>
-                    <div class="circle-text"><i class="far fa-circle"></i><span class="menu-element">angebot</span></div>
+                    <div class="circle-text"><i class="far fa-circle"></i><a href="#"><span class="menu-element">heimat</span></a></div>
+                    <div class="circle-text"><i class="far fa-circle"></i><a href="#about"><span class="menu-element">willkommen</span></a></div>
+                    <div class="circle-text"><i class="far fa-circle"></i><a href="#partners"><span class="menu-element">our partners</span></a></div>
+                    <div class="circle-text"><i class="far fa-circle"></i><a href="#offer"><span class="menu-element">angebot</span></a></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="about__first-half">
             <h2 class="about-heading">Schön, <span class="light-text">dass Sie da sind!</span></h2>
             <div class="underline"></div>
@@ -64,7 +71,7 @@
         </div>
     </section>
 
-    <section class="partners">
+    <section id="partners" class="partners">
         <div class="partners-icons--row">
             <div class="partners-icons__upper-part">
                 <i class="fas fa-handshake"></i>
@@ -81,7 +88,7 @@
         </div>
     </section>
 
-    <section class="offer">
+    <section id="offer" class="offer">
         <!-- left -->
         <div class="offer-photo">
             <img src="" alt="">
@@ -101,9 +108,9 @@
                 </div>
             </article>
             <div class="article-buttons">
-                <span class="article-button">academy</span>
-                <span class="article-button_">horses</span>
-                <span class="article-button_">consulting</span>
+                <a href=""><span class="article-button">academy</span></a>
+                <a href=""><span class="article-button_">horses</span></a>
+                <a href=""><span class="article-button_">consulting</span></a>
             </div>
         </div>
     </section>
@@ -111,9 +118,9 @@
     <section class="instagram-integration">
         <!-- photos divs and link to her Instagram -->
         <footer class="main-footer">
-            <span class="footer-copyright"><span class="bold-text">&copy</span> 2021-2022 KWD (Michael Hajný)</span>
-            <span class="footer-icon"></span>
-            <span class="footer-button">impresum</span>
+            <span class="footer-copyright"><span class="bold-text">&copy</span> 2021-2022 </span>
+            <a href="#"><span class="footer-icon"><img src="img/icons/logo-white.png" alt="footer logo"></span></a>
+            <a href="impresum.html"><span class="footer-button">impresum</span></a>
         </footer>
     </section>
 </body>
