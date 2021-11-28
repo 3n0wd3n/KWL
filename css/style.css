@@ -397,7 +397,7 @@ body {
   font-family: var(--text--font-family);
   font-size: 1rem;
   font-weight: 300;
-  min-height: 7vh;
+  height: 3rem;
   width: 100vw;
   display: flex;
   justify-content: center;
