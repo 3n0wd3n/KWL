@@ -71,6 +71,118 @@ body {
   font-size: 1.5rem;
 }
 
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+.modal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  /* border: 1px solid black; */
+  box-shadow: 10px 10px 35px rgb(204 204 204);
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 1000;
+}
+
+#overlay.active{
+  opacity: 1;
+  pointer-events: all;
+  z-index: 100;
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--text--font-family);
+  /* border-bottom: 1px solid black; */
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.decoration-underline{
+  width: 100px;
+  height: 1.5px;
+  background-color:black;
+  border: 1px solid black;
+  border-radius: 100px;
+
+}
+
+.modal-header .tell, .mail{
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+.modal-header .tell{
+  margin-top: .8rem;
+}
+
+.modal-header .mail a:link {
+  color: var(--text--color--black-color);
+  text-decoration: none;
+}
+
+.modal-header .contact-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: .8rem;
+  margin-bottom: .8rem;
+  font-size: 1.3rem;
+}
+
+.modal-header .postscript{
+  font-style: italic;
+  color: var(--theme--color--light-orange-color);
+  margin-bottom: 1.5rem;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color:#505050;
+}
+
+.contacts button{
+  background: none;
+}
+
+.contacts button i{
+  font-size: 1.5rem;
+}
+
 .contacts a:link {
   color: var(--text--color--black-color);
   text-decoration: none;
@@ -81,6 +193,11 @@ body {
 }
 
 .contacts a:hover {
+  color: var(--theme--color--orange-color);
+  transition: 0.7s;
+}
+
+.contacts button:hover {
   color: var(--theme--color--orange-color);
   transition: 0.7s;
 }
