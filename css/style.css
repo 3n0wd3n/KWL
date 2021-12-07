@@ -95,7 +95,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  max-width: 100vw;
+  width: 100vw;
   background-position: center;
   display: flex;
   align-items: flex-end;
@@ -135,7 +135,7 @@ body {
   color: var(--text--color--white-color);
   font-family: var(--text--font-family);
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-left: 25vw;
   margin-right: 25vw;
 }
@@ -223,7 +223,7 @@ body {
 .about {
   font-family: var(--text--font-family);
   min-height: 60vh;
-  min-width: 100vw;
+  width: 100vw;
   background-color: var(--theme--color--white-color);
   display: flex;
   flex-direction: column;
@@ -243,7 +243,7 @@ body {
 .left-quote {
   /* background-color: orange; */
   height: 20vh;
-  width: 35vw;
+  /* width: 35vw; */
   display: flex;
   justify-content: flex-end;
   color: var(--theme--color--light-orange-color);
@@ -253,6 +253,8 @@ body {
 .about__second-half__text {
   /* padding-left: 25vw;
     padding-right: 25vw; */
+  display: flex;
+  width: 70vw;
   text-align: center;
   font-family: var(--text--font-family);
   font-weight: 300;
@@ -268,7 +270,7 @@ body {
 .right-quote {
   /* background-color: orange; */
   height: 20vh;
-  width: 35vw;
+  /* width: 35vw; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -279,7 +281,7 @@ body {
 .partners {
   background-color: rgb(51, 51, 51);
   min-height: 100vh;
-  min-width: 100vw;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -469,6 +471,40 @@ body {
     .landing-page__contact-menu--rolled--tags {
         margin-left: 20vw;
         margin-right: 20vw;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1300px){
+    .offer{
+        flex-direction: column;
+    }
+
+    .offer-photo{
+        margin: 2.5rem;
+    }
+
+    .content{
+        margin-bottom: 2.5rem;
+    }
+
+    .article-content{
+        width: 0vw;
+        margin-top: 0;
+    }
+
+    .offer-heading{
+        display: None;
+    }
+
+    .heading-container{
+        width: 0;
+        justify-content: center;
+    }
+
+    .article-content p{
+        font-size: 1.5rem;
     }
 }
 
