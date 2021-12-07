@@ -102,7 +102,7 @@ body{
     color: var(--text--color--white-color);
     font-family: var(--text--font-family);
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-left: 25vw;
     margin-right: 25vw;
 }
@@ -200,5 +200,39 @@ body{
     justify-content: flex-end;
     color: var(--theme--color--light-orange-color);
 }
+
+@media only screen and (max-width: 1700px) {
+
+}
+
+
+@media only screen and (max-width: 1520px) {
+
+}
+
+@media only screen and (max-width: 1400px){
+    .landing-page__contact-menu--rolled--tags {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+}
+
+@media only screen and (max-width: 850px) {
+
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
+
 
 
