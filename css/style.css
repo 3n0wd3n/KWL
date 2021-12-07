@@ -753,6 +753,31 @@ body {
 }
 
 @media only screen and (max-width: 850px) {
+  .offer-photo img {
+    width: 196.8125px;
+    height: 295.25px;
+    margin-right: .3rem;
+}
+
+  .contacts {
+    width: 20vw;
+    font-size: 1.5rem;
+  }
+
+  .right-quote, .left-quote{
+    display: none;
+  }
+
+  .about__second-half__text {
+    display: flex;
+    width: 50vw;
+    text-align: center;
+    font-family: var(--text--font-family);
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
 
 }
 
