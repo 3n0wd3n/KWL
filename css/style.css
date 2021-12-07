@@ -192,6 +192,7 @@ body {
   font-style: italic;
   color: var(--theme--color--light-orange-color);
   margin-top: .8rem;
+  margin-bottom: 1.5rem;
 }
 
 .modal-header .close-button {
