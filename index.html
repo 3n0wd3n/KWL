@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/00d7a12034.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <script type="text/javascript" src="js/script.js"></script>
+        <script defer src="js/script.js"></script>
         <!-- <link rel="icon" href="img/Favicon.svg" type="image/gif" /> -->
         <meta name="author" content="Michael Hajný">
         <title>KWL</title>
@@ -20,10 +20,27 @@
         automaticly will appear and disappear if landing page
      -->
     <div class="contacts" >
-        <a href=""><i class="fas fa-phone" ></i></a>
+        <button data-modal-target="#modal-1"><i class="fas fa-phone"></i></button>
         <a href=""><i class="fas fa-envelope"></i></a>
-        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
     </div>
+    <div class="modal" id="modal-1">
+        <div class="modal-header">
+            <div class="title">GET IN TOUCH</div>
+            <div class="decoration-underline"></div>
+            <div class="tell">cell: 0049 173 60 51 842</div>
+            <div class="mail">mail: <a href="mailto:kristin@kristinweinland.de">kristin@kristinweinland.de</a></div>
+            <div class="contact-info">
+                <span>Kristin Leonie Weiland</span>
+                <span>Schorlemerstraße 70</span>
+                <span>40547 Düsseldorf</span>
+            </div>
+            <span class="postscript">very happy to hear from you!</span>
+        </div>
+        <!-- <button data-close-button class="close-button">x</button> -->
+    </div>
+    <div id="overlay"></div>
+
     <section class="landing-page">
         <div class="landing-page--container">
             <div class="landing-page__contact-menu">
