@@ -775,12 +775,30 @@ body {
     font-family: var(--text--font-family);
     font-weight: 300;
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 1.5rem;
+}
+
+.article-content p {
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.about__second-half {
+  margin-top: 1.5rem;
 }
 
 }
 
 @media only screen and (max-width: 500px) {
+
+  .article-content {
+    width: 55vw;
+
+}
 
 }
