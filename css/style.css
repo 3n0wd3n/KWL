@@ -90,8 +90,7 @@ body {
       to bottom,
       rgba(104, 104, 104, 0),
       rgba(0, 0, 0, 0.739)
-    ),
-    url(/photos/profile.jpg);
+    );
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -99,6 +98,28 @@ body {
   background-position: center;
   display: flex;
   align-items: flex-end;
+  animation: change 25s infinite ease-in-out;
+}
+
+@keyframes change {
+  0% {
+    background-image: url(/photos/profile1.jpg);
+  }
+  20% {
+    background-image: url(/photos/profile3.jpg);
+  }
+  40% {
+    background-image: url(/photos/profile4.jpg);
+  }
+  60% {
+    background-image: url(/photos/profile5.jpg);
+  }
+  80% {
+    background-image: url(/photos/profile6.jpg);
+  }
+  100% {
+    background-image: url(/photos/profile2.jpg);
+  }
 }
 
 .landing-page--container {
@@ -490,7 +511,7 @@ body {
     }
 
     .article-content{
-        width: 0vw;
+      width: 40vw;
         margin-top: 0;
     }
 
@@ -499,7 +520,7 @@ body {
     }
 
     .heading-container{
-        width: 0;
+        width: 40vw;
         justify-content: center;
     }
 
