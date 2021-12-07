@@ -320,9 +320,18 @@ body {
 
 .offer-photo {
   background-color: var(--theme--color--orange-color);
-  width: 25vw;
-  height: 70vh;
   margin-right: 2.5rem;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+/* 3149 x 4724 */
+.offer-photo img {
+  background-color: var(--theme--color--orange-color);
+  width: 393.625px;
+  height: 590.5px;
+  margin-right: 1.2rem;
 }
 
 .content {
