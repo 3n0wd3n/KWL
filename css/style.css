@@ -71,7 +71,6 @@ body {
   font-size: 1.5rem;
 }
 
-
 .contacts a:link {
   color: var(--text--color--black-color);
   text-decoration: none;
@@ -85,7 +84,6 @@ body {
   color: var(--theme--color--orange-color);
   transition: 0.7s;
 }
-
 
 .landing-page {
   background-image: linear-gradient(
