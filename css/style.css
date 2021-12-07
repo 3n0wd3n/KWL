@@ -135,6 +135,15 @@ body {
 
 }
 
+.decoration-underline_{
+  width: 100px;
+  height: 1.5px;
+  background-color:black;
+  border: 1px solid black;
+  border-radius: 100px;
+  margin-left: 10rem;
+}
+
 .modal-header .tell, .mail{
   font-weight: 900;
   font-size: 1.3rem;
@@ -165,6 +174,26 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.modal-header .mail_ a:link {
+  color: var(--text--color--black-color);
+  text-decoration: none;
+}
+
+.modal-header .mail_{
+  margin-top: .8rem;
+}
+
+.modal-header .mail_{
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+.modal-header .postscript_{
+  font-style: italic;
+  color: var(--theme--color--light-orange-color);
+  margin-top: .8rem;
+}
+
 .modal-header .close-button {
   cursor: pointer;
   border: none;
@@ -174,6 +203,7 @@ body {
   font-weight: bold;
   color:#505050;
 }
+
 
 .contacts button{
   background: none;
@@ -583,7 +613,10 @@ body {
 }
 
 .impresum-text {
-  margin: 5vw;
+  margin-top: .5vw;
+  margin-bottom: 1vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   display: flex;
   justify-content: center;
   align-items: center;
