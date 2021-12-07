@@ -14,8 +14,6 @@ academy.addEventListener('click', academyFunction)
 horse.addEventListener('click', horseFunction)
 consulting.addEventListener('click', consultingFunction)
 
-
-
 function academyFunction(){
     console.log("academie")
     var academyDiv = document.querySelector('.content_acad')
