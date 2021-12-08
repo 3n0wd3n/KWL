@@ -249,7 +249,7 @@ body {
   background-position: center;
   display: flex;
   align-items: flex-end;
-  animation: change 25s infinite ease-in-out;
+  animation: change 12s infinite ease-in;
 }
 
 @keyframes change {
@@ -467,6 +467,15 @@ body {
   margin-top: 5rem;
 }
 
+.partners-icons__upper-part, .partners-icons__bottom-part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
 .offer {
   min-height: 100vh;
   width: 100vw;
@@ -581,7 +590,7 @@ body {
 .dots {
   margin-top: 10vh;
   font-size: 0.71rem;
-  color: rgba(0, 0, 0, 0.664);
+  color: rgba(182, 182, 182, 0.424);
 }
 
 .article-content p {
@@ -821,6 +830,19 @@ h2 {
   margin-top: 1.5rem;
 }
 
+.kempknes_photo{
+  width: 200px;
+  height: 61.5px;
+}
+
+.scharnebecker_photo{
+  width: 232.33px;
+  height: 83.3px;
+}
+
+.förderkreis_photo{
+  width: 181.81px;
+  height: 56.36px;
 }
 
 @media only screen and (max-width: 500px) {
