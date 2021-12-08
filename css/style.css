@@ -481,6 +481,10 @@ body {
   position: relative;
 }
 
+.middle, .left, .right{
+  color: var(--theme--color--orange-color);
+}
+
 .content_hors {
   /* border: 1px solid var(--theme--color--orange-color); */
   display: none;
