@@ -14,9 +14,12 @@
 /* ROBOTO TEXT SPECIALY FOR LOGO */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Roboto:wght@300&display=swap');
+
 :root {
   --text--font-family: "Cormorant Garamond", serif;
   --logo-text--font-family: "Roboto", sans-serif;
+  --text--font-family-allura: "Allura", cursive;
   --text--color--black-color: black;
   --text--color--white-color: white;
   --icon--color--white-color: white;
@@ -453,6 +456,15 @@ body {
   justify-content: center;
   align-items: center;
   color: rgba(255, 255, 255, 0.685);
+  flex-direction: column;
+
+}
+
+.partners-text{
+  font-size: 1.5rem;
+  font-family: var(--text--font-family-allura);
+  color: var(--theme--color--light-orange-color);
+  margin-top: 5rem;
 }
 
 .offer {
@@ -619,6 +631,11 @@ body {
 .article-button_ {
   margin-left: 2vw;
 }
+
+/* .instagram-integration{
+  min-height: 100vh;
+  width: 100vw;
+} */
 
 .main-footer {
   background-color: var(--theme--color--light-orange-color);
