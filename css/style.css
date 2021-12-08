@@ -466,6 +466,7 @@ body {
   font-family: var(--text--font-family-allura);
   color: var(--theme--color--light-orange-color);
   margin-top: 5rem;
+  margin-bottom: 1.5rem;
 }
 
 .partners-icons__upper-part, .partners-icons__bottom-part{
