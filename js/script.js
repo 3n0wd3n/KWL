@@ -5,14 +5,15 @@ const openModalButtons = document.querySelectorAll('[data-modal-target]')
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
 // -- offer
-const academy = document.querySelector('.academy')
-const horse = document.querySelector('.horses')
-const consulting = document.querySelector('.consulting')
-
-//event listeners
-academy.addEventListener('click', academyFunction)
-horse.addEventListener('click', horseFunction)
-consulting.addEventListener('click', consultingFunction)
+const academy = document.querySelectorAll('.academy').forEach(element => {
+  element.addEventListener('click', academyFunction)
+})
+const horse = document.querySelectorAll('.horses').forEach(element => {
+  element.addEventListener('click', horseFunction)
+})
+const consulting = document.querySelectorAll('.consulting').forEach(element => {
+  element.addEventListener('click', consultingFunction)
+})
 
 function academyFunction(){
     console.log("academie")
