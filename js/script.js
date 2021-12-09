@@ -15,6 +15,26 @@ const consulting = document.querySelectorAll('.consulting').forEach(element => {
   element.addEventListener('click', consultingFunction)
 })
 
+const contacts_e = document.querySelector('.fa-envelope')
+const contacts_p = document.querySelector('.fa-phone')
+const contacts_i = document.querySelector('.fa-instagram')
+
+document.addEventListener('scroll', showContacts)
+
+function showContacts(){
+  // console.log(contacts)
+  if (scrollY >= 987 && scrollY <= 2062){
+    contacts_i.style.color = "#e4b78b"
+    contacts_p.style.color = "#e4b78b"
+    contacts_e.style.color = "#e4b78b"
+  }
+  else{
+    contacts_i.style.color = 'black'
+    contacts_p.style.color = "black"
+    contacts_e.style.color = "black"
+  }
+}
+
 function academyFunction(){
     console.log("academie")
     var academyDiv = document.querySelector('.content_acad')
