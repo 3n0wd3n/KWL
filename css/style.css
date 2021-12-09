@@ -298,7 +298,7 @@ body {
   color: var(--text--color--white-color);
   font-family: var(--text--font-family);
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-left: 3vw;
   margin-right: 3vw;
 }
@@ -328,6 +328,7 @@ body {
 }
 
 .contact-menu__logo img {
+  /* margin-top: 1.5rem; */
   width: 124.75px;
   height: 94.75px;
 }
@@ -577,7 +578,7 @@ body {
   font-weight: 500;
   /* font-style: italic; */
   color: var(--text--color--black-color);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .bold-text {
@@ -783,7 +784,7 @@ body {
   }
 
   .landing-page--container {
-    height: 70vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     width: 100vw;
