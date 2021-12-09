@@ -250,7 +250,7 @@ body {
   background-position: center;
   display: flex;
   align-items: flex-end;
-  animation: change 40s infinite ease-in;
+  animation: change 15s infinite ease-in;
 }
 
 @keyframes change {
@@ -270,7 +270,7 @@ body {
     background-image: url(/photos/profile6.jpg);
   }
   100% {
-    background-image: url(/photos/profile2.jpg);
+    background-image: url(/photos/profile1.jpg);
   }
 }
 
