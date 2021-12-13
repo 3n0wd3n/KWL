@@ -23,7 +23,7 @@ document.addEventListener('scroll', showContacts)
 
 function showContacts(){
   // console.log(contacts)
-  if (scrollY >= 987 && scrollY <= 2062){
+  if (scrollY >= 1031 && scrollY <= 1973){
     contacts_i.style.color = "#e0ac7b"
     contacts_p.style.color = "#e0ac7b"
     contacts_e.style.color = "#e0ac7b"
