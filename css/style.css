@@ -246,7 +246,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   background-position: center;
   display: flex;
   align-items: flex-end;
@@ -329,8 +329,8 @@ body {
 
 .contact-menu__logo img {
   /* margin-top: 1.5rem; */
-  width: 124.75px;
-  height: 94.75px;
+  /* width: 124.75px; */
+  height: 130px;
 }
 
 .contact-menu__logo p {
@@ -387,7 +387,7 @@ body {
 .about {
   font-family: var(--text--font-family);
   min-height: 60vh;
-  width: 100vw;
+  /* width: 100vw; */
   background-color: var(--theme--color--white-color);
   display: flex;
   flex-direction: column;
@@ -449,7 +449,7 @@ body {
       rgba(0, 0, 0, 0.739)
     ),  url(/photos/partners.jpg);
   min-height: 110vh;
-  width: 100vw;
+  /* width: 100vw; */
   font-size: 2rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -481,7 +481,7 @@ body {
 
 .offer {
   min-height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   background-color: var(--theme--color--white-color);
   display: flex;
   justify-content: center;
@@ -656,7 +656,7 @@ body {
   font-size: 1rem;
   font-weight: 300;
   height: 3rem;
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
   justify-content: center;
   align-items: center;
