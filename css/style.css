@@ -232,7 +232,7 @@ body {
   transition: 0.7s;
 }
 
-.contacts button:hover {
+.contacts button i:hover {
   color: var(--theme--color--orange-color);
   transition: 0.7s;
 }
@@ -330,7 +330,7 @@ body {
 .contact-menu__logo img {
   /* margin-top: 1.5rem; */
   /* width: 124.75px; */
-  height: 130px;
+  height: 180px;
 }
 
 .contact-menu__logo p {
@@ -361,7 +361,8 @@ body {
 }
 
 .landing-page__contact-menu--rolled--tags a:visited {
-  color: var(--icon--color--white-color);
+  /* color: var(--icon--color--white-color); */
+  color: #231F20;
 }
 
 .landing-page__contact-menu--rolled--tags a:link {
@@ -370,7 +371,8 @@ body {
 }
 
 .landing-page__contact-menu--rolled--tags a:hover {
-  color: var(--theme--color--orange-color);
+  /* color: var(--theme--color--orange-color); */
+  color: white;
   transition: 0.7s;
 }
 
