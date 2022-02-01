@@ -250,7 +250,7 @@ body {
   background-position: center;
   display: flex;
   align-items: flex-end;
-  animation: change 60s infinite ease-in;
+  animation: change 40s infinite ease-in-out;
 }
 
 @keyframes change {
