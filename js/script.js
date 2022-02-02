@@ -15,9 +15,9 @@ const consulting = document.querySelectorAll('.consulting').forEach(element => {
   element.addEventListener('click', consultingFunction)
 })
 
-const contacts_e = document.querySelector('.fa-envelope')
-const contacts_p = document.querySelector('.fa-phone')
-const contacts_i = document.querySelector('.fa-instagram')
+// const contacts_e = document.querySelector('.fa-envelope')
+// const contacts_p = document.querySelector('.fa-phone')
+// const contacts_i = document.querySelector('.fa-instagram')
 
 document.addEventListener('scroll', showContacts)
 
