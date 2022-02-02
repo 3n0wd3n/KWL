@@ -485,7 +485,7 @@ body {
 }
 
 .partners-icons__upper-part, .partners-icons__bottom-part{
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
