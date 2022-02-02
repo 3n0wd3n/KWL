@@ -889,6 +889,11 @@ h2 {
 
 }
 
+@media only screen and (max-height: 850px) {
+  .landing-page--container {
+    height: 95vh;
+}
+
 @media only screen and (max-width: 500px) {
 
   .article-content {
