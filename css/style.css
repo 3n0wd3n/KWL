@@ -710,7 +710,7 @@ body {
   width: 41.57px;
 }
 
-.main-footer a:hover{
+.footer-copyright + a:hover{
   transform: rotateZ(11deg);
 }
 
