@@ -457,6 +457,11 @@ body {
       rgba(104, 104, 104, 0),
       rgba(0, 0, 0, 0.739)
     ),  url(/photos/partners.jpg);
+    /* background-image: linear-gradient(
+      to bottom,
+      rgba(104, 104, 104, 0),
+      rgba(0, 0, 0, 0.739)
+    ),  url(/photos/210831028.jpg); */
   min-height: 110vh;
   /* width: 100vw; */
   font-size: 2rem;
