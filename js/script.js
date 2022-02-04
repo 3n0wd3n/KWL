@@ -19,21 +19,21 @@ const consulting = document.querySelectorAll('.consulting').forEach(element => {
 // const contacts_p = document.querySelector('.fa-phone')
 // const contacts_i = document.querySelector('.fa-instagram')
 
-document.addEventListener('scroll', showContacts)
+// document.addEventListener('scroll', showContacts)
 
-function showContacts(){
-  // console.log(contacts)
-  if (scrollY >= 1170 && scrollY <= 2158){
-    contacts_i.style.color = "#e0ac7b"
-    contacts_p.style.color = "#e0ac7b"
-    contacts_e.style.color = "#e0ac7b"
-  }
-  else{
-    contacts_i.style.color = 'black'
-    contacts_p.style.color = "black"
-    contacts_e.style.color = "black"
-  }
-}
+// function showContacts(){
+//   // console.log(contacts)
+//   if (scrollY >= 1170 && scrollY <= 2158){
+//     contacts_i.style.color = "#e0ac7b"
+//     contacts_p.style.color = "#e0ac7b"
+//     contacts_e.style.color = "#e0ac7b"
+//   }
+//   else{
+//     contacts_i.style.color = 'black'
+//     contacts_p.style.color = "black"
+//     contacts_e.style.color = "black"
+//   }
+// }
 
 function academyFunction(){
     console.log("academie")
