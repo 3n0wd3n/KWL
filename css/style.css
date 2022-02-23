@@ -580,7 +580,7 @@ body {
 }
 
 .article-content {
-  margin-top: 14vh;
+  margin-top: 2vh;
   width: 40vw;
   display: flex;
   align-items: center;
@@ -823,7 +823,7 @@ body {
   }
 
   .heading-container {
-    width: 40vw;
+    width: 55vw;
     justify-content: center;
   }
 
