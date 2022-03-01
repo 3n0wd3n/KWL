@@ -853,7 +853,11 @@ body {
 @media only screen and (max-width: 850px) {
 
   .modal-header .title {
-    font-size: 1rem;
+    font-size: 1.7rem;
+  }
+
+  .modal-header .mail_{
+    font-size: 1.2rem;
   }
 
   .offer-photo img {
