@@ -851,6 +851,11 @@ body {
 }
 
 @media only screen and (max-width: 850px) {
+
+  .modal-header .title {
+    font-size: 1rem;
+  }
+
   .offer-photo img {
     width: 196.8125px;
     height: 295.25px;
