@@ -5,4 +5,4 @@ Custom website for fiverr client
 >Visible on this page https://kristin-weiland.netlify.app/
 
 * graphics in Figma and Affinity
-* programming in HTML, CSS and JS
+* programming in HTML, CSS and vanillaJS
