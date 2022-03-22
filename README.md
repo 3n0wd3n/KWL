@@ -6,3 +6,7 @@ Custom website for fiverr client
 
 * graphics in Figma and Affinity
 * programming in HTML, CSS and vanillaJS
+
+ssh.strato.de
+kristinweiland.de
+Homepage_1985_Projekt
